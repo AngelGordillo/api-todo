@@ -1,7 +1,7 @@
 {
-  "name": "api-todo",
+  "name": "api-presentation",
   "version": "1.0.0",
-  "description": "It's a ddbb to create a todo list",
+  "description": "It's a ddbb to list our presentation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,10 +13,9 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
+    "boom": "^7.1.1",
     "express": "^4.16.2",
     "mongoose": "^4.7.2",
     "nodemon": "^1.12.1"
   }
 }
-
-

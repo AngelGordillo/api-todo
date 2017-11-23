@@ -2,7 +2,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 4000,
   mongoose = require('mongoose'),
-  Task = require('./api/models/todoListModel'), //created model loading here
+  Presentations = require('./api/models/presentModel'), //created model loading here
   bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-var routes = require('./api/routes/todoListRoutes'); //importing route
+var routes = require('./api/routes/presentRoutes'); //importing route
 routes(app); //register the route
 
 
