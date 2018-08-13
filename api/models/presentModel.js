@@ -29,6 +29,10 @@ var PresentationSchema = new Schema({
     type: String,
     
   },
+  responsible: {
+    type: String,
+    
+  },
   updated_date: {
     type: Date,
     default: Date.now
